@@ -9,8 +9,7 @@ export const metadata: Metadata = {
   description: siteDescription,
 };
 
-const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1599058945522-682d55b544b6?auto=format&fit=crop&w=1920&q=80";
+const HERO_IMAGE = "/hero-main.png";
 
 export default function HomePage() {
   return (
@@ -18,7 +17,7 @@ export default function HomePage() {
       <section className="relative flex min-h-[min(70vh,36rem)] items-center justify-center overflow-hidden px-4 py-20 text-center">
         <Image
           src={HERO_IMAGE}
-          alt="Εσωτερικό χώρος γυμναστηρίου με σάκο και ρινγκ"
+          alt="Ομαδική φωτογραφία στο γυμναστήριο με πινακίδα K-1 Worldwide Tryout Series, Αθήνα 2013"
           fill
           priority
           className="object-cover"
